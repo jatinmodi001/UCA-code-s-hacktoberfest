@@ -27,7 +27,7 @@ int UpperBound(int arr[],int n, int max)
 {
 /*	Finding the upper bound of max value in array using Binary Search	*/
 	
-	int l = 0, r = n-1, mid;
+	int l = 0, r = n, mid;
 	while( l < r )
 	{
 		mid = (l+r)/2;
@@ -61,5 +61,5 @@ int main()
 	int lower = LowerBound(arr,n,min);
 	int upper = UpperBound(arr,n,max);
 	
-	printf("%d\n%d\n",upper,lower);
+	printf("%d\n",upper-lower);
 }
