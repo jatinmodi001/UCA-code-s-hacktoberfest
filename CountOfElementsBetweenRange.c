@@ -4,10 +4,11 @@ int comp(const void *a, const void *b)
 {
 	return *(int *)a - *(int *)b;
 }
-int LowerBound(int arr[],int n,int min)
-{
+
 /*	Finding the lower bound of min in arrray using Binary Search	*/
 
+int LowerBound(int arr[],int n,int min)
+{
 	int l = 0,r = n-1,mid ;
 	while( l < r )
 	{
@@ -23,10 +24,11 @@ int LowerBound(int arr[],int n,int min)
 	}
 	return r;
 }
-int UpperBound(int arr[],int n, int max)
-{
+
 /*	Finding the upper bound of max value in array using Binary Search	*/
-	
+
+int UpperBound(int arr[],int n, int max)
+{	
 	int l = 0, r = n, mid;
 	while( l < r )
 	{
