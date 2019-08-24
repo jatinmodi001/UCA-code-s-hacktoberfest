@@ -9,7 +9,7 @@ int comp(const void *a, const void *b)
 
 int LowerBound(int arr[],int n,int min)
 {
-	int l = 0,r = n-1,mid ;
+	int l = 0,r = n,mid ;
 	while( l < r )
 	{
 		mid = (l+r)/2;
