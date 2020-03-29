@@ -1,4 +1,4 @@
-# Question : https://practice.geeksforgeeks.org/problems/infix-to-postfix/0
+// Question : https://practice.geeksforgeeks.org/problems/infix-to-postfix/0
 
 #include <iostream>
 #include<stack>
