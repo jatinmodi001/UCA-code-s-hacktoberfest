@@ -38,7 +38,9 @@ int main() {
             }
             
             if(str[i] == '(')
+	    {
                 st.push(str[i]);
+	    }
             else if(str[i] == ')')
             {
                 while(!st.empty() && st.top()!='(')
@@ -62,9 +64,9 @@ int main() {
         while(!st.empty())
         {
             ans = ans+st.top();
-            st.pop();        }
+            st.pop();        
+	}
         cout<<ans<<endl;
     }
-	//code
 	return 0;
 }
