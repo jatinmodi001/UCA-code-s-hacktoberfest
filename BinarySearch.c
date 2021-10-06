@@ -12,6 +12,7 @@ int BinarySearch(int arr[],int n,int a)
 	while(l<=r)
 	{
 		mid = (l+r)/2;
+		// COMPARE ELEMENT
 		if(a > arr[mid])
 		{
 			l = mid + 1;
