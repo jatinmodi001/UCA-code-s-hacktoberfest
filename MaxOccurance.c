@@ -8,6 +8,7 @@ int main()
 	int left[n],right[n];
 	for(int i=0;i<n;i++)
 		scanf("%d",&left[i]);
+	// input elements and compare
 	for(int i=0;i<n;i++)
 	{	
 		scanf("%d",&right[i]);
