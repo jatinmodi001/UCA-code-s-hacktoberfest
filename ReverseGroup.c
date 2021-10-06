@@ -17,6 +17,7 @@ int main()
 	int k;
 	printf("Enter number of groups\n");
 	scanf("%d",&k);
+	//reverse elements in group
 	for(int i= 0 ; i < n ;i = i + k)
 	{
 		if(i + k <= n)
