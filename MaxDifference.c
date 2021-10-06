@@ -18,6 +18,7 @@ int main()
 	scanf("%d",&n);
 	struct element arr[n];
 	printf("Enter elements\n");
+	//scan element
 	for(int i=0;i<n;i++)
 	{
 		scanf("%d",&arr[i].value);
