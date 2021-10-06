@@ -4,6 +4,7 @@ int remove_duplicates(int arr[],int n)
 	int j = 0;
 	for(int i=1;i<n;i++)
 	{
+		// swap the elements
 		if(arr[i] != arr[i-1])
 		{
 			j++;
