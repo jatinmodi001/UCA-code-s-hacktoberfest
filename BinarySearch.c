@@ -8,6 +8,7 @@ int BinarySearch(int arr[],int n,int a)
 {
 	int l = 0,r = n-1;
 	int mid;
+	// find mid element and check
 	while(l<=r)
 	{
 		mid = (l+r)/2;
